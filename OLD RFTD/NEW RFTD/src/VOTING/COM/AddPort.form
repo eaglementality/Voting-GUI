@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VOTING.COM.AddPort">
+  <grid id="27dc6" binding="ADDPORT" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1070" height="1742"/>
+    </constraints>
+    <properties>
+      <background color="-7569896"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="bfeac">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="0" right="60" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="cf27f" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-13951913"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="cc06e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Phone no."/>
+        </properties>
+      </component>
+      <component id="e149c" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13951913"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="8db49" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Gender"/>
+        </properties>
+      </component>
+      <component id="c7996" class="javax.swing.JRadioButton" binding="maleRadioButton" default-binding="true">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-7569896"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Male"/>
+        </properties>
+      </component>
+      <component id="47755" class="javax.swing.JRadioButton" binding="femaleRadioButton" default-binding="true">
+        <constraints>
+          <grid row="21" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-7569896"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Female"/>
+        </properties>
+      </component>
+      <vspacer id="edc80">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="60" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="394eb">
+        <constraints>
+          <grid row="24" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="210" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="c2751">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="60" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="7feda">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="a1957" class="javax.swing.JButton" binding="uploadButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13951913"/>
+          <font name="JetBrains Mono" size="16" style="1"/>
+          <foreground color="-1"/>
+          <text value="Upload"/>
+        </properties>
+      </component>
+      <component id="4e4f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Position :"/>
+        </properties>
+      </component>
+      <component id="fabe4" class="javax.swing.JLabel" binding="picture">
+        <constraints>
+          <grid row="3" column="6" row-span="10" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="VOTING/COM/imageUpload.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="65abe">
+        <constraints>
+          <grid row="22" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="60" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d6d17">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="0" right="60" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="e966b" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13951913"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <vspacer id="48820">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="90" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="9875e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13951913"/>
+          <focusable value="true"/>
+          <font name="JetBrains Mono" size="16" style="1"/>
+          <foreground color="-1"/>
+          <preferredSize width="49" height="30"/>
+        </properties>
+      </component>
+      <component id="be7d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Programme:"/>
+        </properties>
+      </component>
+      <component id="918ca" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Name :"/>
+        </properties>
+      </component>
+      <component id="6258" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="VOTING/COM/admin.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b43b0" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="23" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13951913"/>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="77ec8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20" style="3"/>
+          <foreground color="-1"/>
+          <text value="Add Portfolio"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

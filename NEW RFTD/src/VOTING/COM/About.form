@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VOTING.COM.About">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1220" height="726"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <font name="Chiller"/>
+      <foreground color="-1"/>
+      <name value="01202619D"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3a3a4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="JetBrains Mono"/>
+          <foreground color="-11842741"/>
+          <text value="Jesse Owusu Yeboah"/>
+        </properties>
+      </component>
+      <vspacer id="472b0">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="b1ce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono"/>
+          <text value="01202834D"/>
+        </properties>
+      </component>
+      <component id="a9f2d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Sani Adamu"/>
+        </properties>
+      </component>
+      <component id="65a54" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Godwin Nyarkoh"/>
+        </properties>
+      </component>
+      <component id="d0125" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Felix Adjie"/>
+        </properties>
+      </component>
+      <component id="8da1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Assem Alfred"/>
+        </properties>
+      </component>
+      <component id="558be" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Enoch Elliah"/>
+        </properties>
+      </component>
+      <vspacer id="8f723">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="eee73">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="9c3f8">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="5ee31">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="c284d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="01202356D"/>
+        </properties>
+      </component>
+      <component id="d3e30" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="01202490D"/>
+        </properties>
+      </component>
+      <component id="81c00" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="01200309D"/>
+        </properties>
+      </component>
+      <component id="133de" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="01202042D"/>
+        </properties>
+      </component>
+      <component id="9fdea" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="01201513D"/>
+        </properties>
+      </component>
+      <component id="e36f7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Awuni Godfred"/>
+        </properties>
+      </component>
+      <component id="9331c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Mohammed Tijani"/>
+        </properties>
+      </component>
+      <component id="37b88" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Mohammed Razak"/>
+        </properties>
+      </component>
+      <vspacer id="1c063">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3add2">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="77565">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="d4949" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="012043513D"/>
+        </properties>
+      </component>
+      <component id="dd39b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="01205336D"/>
+        </properties>
+      </component>
+      <component id="241fb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f13e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="01201118D"/>
+        </properties>
+      </component>
+      <component id="e868f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="VOTING/COM/big_hero_6_characters-wallpaper.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e1446" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Chiller" size="18" style="1"/>
+          <foreground color="-12185716"/>
+          <text value=" Your comfort is our priority"/>
+        </properties>
+      </component>
+      <hspacer id="1157b">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="0" right="90" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="b7215">
+        <constraints>
+          <grid row="23" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="100" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="1df4f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="23" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Old Style" size="14" style="1"/>
+          <foreground color="-12185716"/>
+          <text value="Copy Right@2020-2023 ATU Voting System"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="f9eda" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="24" style="1"/>
+          <foreground color="-13951913"/>
+          <text value="Techeun Labs"/>
+        </properties>
+      </component>
+      <component id="86293" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Castellar" size="20" style="1"/>
+          <foreground color="-7239402"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="58c44" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Castellar" size="20" style="1"/>
+          <foreground color="-12185716"/>
+          <text value="ID"/>
+        </properties>
+      </component>
+      <component id="1f8f6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Bradley Hand ITC" size="14" style="1"/>
+          <foreground color="-7239402"/>
+          <text value="Powered by Group 10 Members"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="20571" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="Martin Torkor"/>
+        </properties>
+      </component>
+      <component id="dabe2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="20" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="12"/>
+          <text value="01202727D"/>
+        </properties>
+      </component>
+      <vspacer id="19c8c">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ea6f6">
+        <constraints>
+          <grid row="21" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="b4a07" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-12185716"/>
+          <font name="Kristen ITC" size="16" style="1"/>
+          <foreground color="-7569896"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

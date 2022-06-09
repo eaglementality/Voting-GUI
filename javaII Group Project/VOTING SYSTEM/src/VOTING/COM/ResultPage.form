@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VOTING.COM.ResultPage">
+  <grid id="27dc6" binding="framePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1475" height="960"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="bf093" binding="northPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-13951913"/>
+          <font name="Broadway" size="28" style="1"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8c264" class="javax.swing.JLabel" binding="resultLabel">
+            <constraints/>
+            <properties>
+              <font name="Broadway" size="24" style="1"/>
+              <foreground color="-1"/>
+              <text value="RESULTS"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="69ae6" binding="centerPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-7569896"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="e943c">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <component id="73af2" class="javax.swing.JLabel" binding="presidentCandidate1">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VOTING/COM/bee_movie.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="37fd7" class="javax.swing.JLabel" binding="presidentCandidate2">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VOTING/COM/bee_movie.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="33164" class="javax.swing.JLabel" binding="voteLabel1">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="VOTES"/>
+            </properties>
+          </component>
+          <component id="cc178" class="javax.swing.JLabel" binding="voteLabel2">
+            <constraints>
+              <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="VOTES"/>
+            </properties>
+          </component>
+          <component id="b35d1" class="javax.swing.JLabel" binding="nameLabel1">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Name: Jesse"/>
+            </properties>
+          </component>
+          <component id="f20ec" class="javax.swing.JLabel" binding="nameLabel2">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Name: Awuni Godfred"/>
+            </properties>
+          </component>
+          <component id="7687" class="javax.swing.JLabel" binding="secretaryCandidate1">
+            <constraints>
+              <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VOTING/COM/bee_movie.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1d8c5" class="javax.swing.JLabel" binding="presidentLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" size="28" style="1"/>
+              <foreground color="-1"/>
+              <text value="PRESIDENT"/>
+            </properties>
+          </component>
+          <component id="2a089" class="javax.swing.JLabel" binding="secretaryLabel">
+            <constraints>
+              <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" size="28" style="1"/>
+              <foreground color="-1"/>
+              <text value="SECRETARY"/>
+            </properties>
+          </component>
+          <component id="9fd82" class="javax.swing.JLabel" binding="secretaryCandidate2">
+            <constraints>
+              <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VOTING/COM/bee_movie.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="61493" class="javax.swing.JLabel" binding="nameLabel4">
+            <constraints>
+              <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Name: Godwin Nyarko"/>
+            </properties>
+          </component>
+          <component id="319be" class="javax.swing.JLabel" binding="secretaryCandidate3">
+            <constraints>
+              <grid row="14" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VOTING/COM/bee_movie.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4bca7" class="javax.swing.JLabel" binding="voteLabel3">
+            <constraints>
+              <grid row="4" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="VOTES"/>
+            </properties>
+          </component>
+          <component id="ae7af" class="javax.swing.JLabel" binding="voteLabel4">
+            <constraints>
+              <grid row="9" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="VOTES"/>
+            </properties>
+          </component>
+          <component id="b2a7c" class="javax.swing.JLabel" binding="voteLabel5">
+            <constraints>
+              <grid row="14" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="VOTES"/>
+            </properties>
+          </component>
+          <component id="6a77d" class="javax.swing.JLabel" binding="treasurerLabel">
+            <constraints>
+              <grid row="2" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" size="28" style="1"/>
+              <foreground color="-1"/>
+              <text value="TREASURER"/>
+            </properties>
+          </component>
+          <component id="13ac5" class="javax.swing.JLabel" binding="treasurerCandidate1">
+            <constraints>
+              <grid row="4" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VOTING/COM/bee_movie.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="83cab" class="javax.swing.JLabel" binding="treasurerCandidate2">
+            <constraints>
+              <grid row="9" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VOTING/COM/bee_movie.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="14d2f">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="5b54d">
+            <constraints>
+              <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <component id="7487a" class="javax.swing.JLabel" binding="voteLabel7">
+            <constraints>
+              <grid row="9" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="VOTES"/>
+            </properties>
+          </component>
+          <hspacer id="2130f">
+            <constraints>
+              <grid row="3" column="14" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <component id="16bf7" class="javax.swing.JLabel" binding="voteLabel6">
+            <constraints>
+              <grid row="4" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="VOTES"/>
+            </properties>
+          </component>
+          <hspacer id="a4ef4">
+            <constraints>
+              <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="60" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="28c05">
+            <constraints>
+              <grid row="3" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="60" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <component id="19b3a" class="javax.swing.JLabel" binding="nameLabel3">
+            <constraints>
+              <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Name: Alfred Assem"/>
+            </properties>
+          </component>
+          <component id="63deb" class="javax.swing.JLabel" binding="nameLabel6">
+            <constraints>
+              <grid row="5" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Name: Jesse "/>
+            </properties>
+          </component>
+          <component id="c1ba7" class="javax.swing.JLabel" binding="nameLabel7">
+            <constraints>
+              <grid row="10" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Name: Jesse"/>
+            </properties>
+          </component>
+          <component id="b2c09" class="javax.swing.JLabel" binding="nameLabel5">
+            <constraints>
+              <grid row="15" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Name: Enoch Elliah"/>
+            </properties>
+          </component>
+          <hspacer id="36147">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="0" right="110" weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <component id="9c460" class="javax.swing.JLabel" binding="programLabel1">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Program: computer Science"/>
+            </properties>
+          </component>
+          <component id="f60bd" class="javax.swing.JLabel" binding="levelLabel1">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Level: 200"/>
+            </properties>
+          </component>
+          <component id="a8242" class="javax.swing.JLabel" binding="programLabel3">
+            <constraints>
+              <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Program: Computer Science"/>
+            </properties>
+          </component>
+          <component id="f5f4f" class="javax.swing.JLabel" binding="programLabel4">
+            <constraints>
+              <grid row="11" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Program: Computer Science"/>
+            </properties>
+          </component>
+          <component id="61950" class="javax.swing.JLabel" binding="programLabel2">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Program: Computer Science"/>
+            </properties>
+          </component>
+          <component id="c7ebb" class="javax.swing.JLabel" binding="levelLabel4">
+            <constraints>
+              <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Level: 200"/>
+            </properties>
+          </component>
+          <component id="fa522" class="javax.swing.JLabel" binding="levelLabel3">
+            <constraints>
+              <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Level: 200"/>
+            </properties>
+          </component>
+          <component id="1f642" class="javax.swing.JLabel" binding="programLabel6">
+            <constraints>
+              <grid row="6" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Program: Computer Science"/>
+            </properties>
+          </component>
+          <component id="321ed" class="javax.swing.JLabel" binding="programLabel7">
+            <constraints>
+              <grid row="11" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Program: Computer Science"/>
+            </properties>
+          </component>
+          <component id="308ec" class="javax.swing.JLabel" binding="programLabel5">
+            <constraints>
+              <grid row="16" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Program: Computer Science"/>
+            </properties>
+          </component>
+          <component id="a034d" class="javax.swing.JLabel" binding="levelLabel6">
+            <constraints>
+              <grid row="7" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Level: 200"/>
+            </properties>
+          </component>
+          <component id="e7d6f" class="javax.swing.JLabel" binding="levelLabel7">
+            <constraints>
+              <grid row="12" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Level: 200"/>
+            </properties>
+          </component>
+          <component id="1715c" class="javax.swing.JLabel" binding="levelLabel5">
+            <constraints>
+              <grid row="17" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Level: 200"/>
+            </properties>
+          </component>
+          <component id="2f71b" class="javax.swing.JLabel" binding="levelLabel2">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Broadway" style="1"/>
+              <foreground color="-1"/>
+              <text value="Level: 200"/>
+            </properties>
+          </component>
+          <vspacer id="808b2">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="59cab">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="4ae5">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="aec92">
+            <constraints>
+              <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="1770f">
+            <constraints>
+              <grid row="1" column="16" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <component id="82bc2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VOTING/COM/admin.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a608" class="javax.swing.JTextField" binding="presVote1">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="4098" class="javax.swing.JTextField" binding="presVote2">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="60f59" class="javax.swing.JTextField" binding="secVote1">
+            <constraints>
+              <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="c32cc" class="javax.swing.JTextField" binding="secVote2">
+            <constraints>
+              <grid row="9" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="41b81" class="javax.swing.JTextField" binding="secVote3">
+            <constraints>
+              <grid row="14" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="60256" class="javax.swing.JTextField" binding="treVote1">
+            <constraints>
+              <grid row="4" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+          <component id="a3abd" class="javax.swing.JTextField" binding="treVote2">
+            <constraints>
+              <grid row="9" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14" style="1"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="60" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
